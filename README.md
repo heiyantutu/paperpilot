@@ -19,7 +19,7 @@
 这是一个 DSH bundle（`package.json` 里声明了 `dsh.bundle.patch` 与 `dsh.client`）。
 
 ```bash
-git clone <repo-url> paperpilot
+git clone https://github.com/heiyantutu/paperpilot.git
 ```
 
 然后在 DSH 会话里让 agent 安装这个本地 bundle（等价于 `plugin_manager` 的 `install_bundle`，`target` 为克隆后的绝对目录路径）：
